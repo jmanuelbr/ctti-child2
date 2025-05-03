@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/ctti-child-two" mode="merge"/>
+    <filter root="/content/ctti-child-two" mode="merge"/>
+    <filter root="/content/dam/ctti-child-two" mode="merge">
+        <exclude pattern="/content/dam/ctti-child-two(/.*)?"/>
+        <include pattern="/content/dam/ctti-child-two/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/ctti-child-two/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/ctti-child-two" mode="merge"/>
+</workspaceFilter>

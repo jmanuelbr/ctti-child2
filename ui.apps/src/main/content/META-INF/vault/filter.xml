@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/ctti-child-two/clientlibs"/>
+    <filter root="/apps/ctti-child-two/components"/>
+    <filter root="/apps/ctti-child-two/i18n"/>
+</workspaceFilter>
